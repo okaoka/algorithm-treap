@@ -26,7 +26,7 @@ has 'priority' => (
 has 'size' => (
     is => 'rw',
     isa => 'Int',
-    default => 0
+    default => 1
     );
 
 has 'range_min' => (
